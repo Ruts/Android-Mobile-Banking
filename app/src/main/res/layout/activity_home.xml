@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:text="@string/homePage"
+        android:textSize="30dp"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.12" />
+
+    <!-- Link to Deposit Screen -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="@string/btn_deposit"
+        android:textAllCaps="false"
+        android:id="@+id/btnDeposit"
+        android:layout_weight="0.12" />
+
+    <!-- Link to Balance Enq. Screen -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="@string/btn_balanceEnq"
+        android:textAllCaps="false"
+        android:id="@+id/btnBalanceEnq"
+        android:layout_weight="0.12" />
+
+    <!-- Link to Stop Cheque Screen -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="@string/btn_stopCheque"
+        android:textAllCaps="false"
+        android:id="@+id/btnStopCheque"
+        android:layout_weight="0.12" />
+
+    <!-- Link to Change Pin Screen -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="@string/btn_changePin"
+        android:textAllCaps="false"
+        android:id="@+id/btnChangePin"
+        android:layout_weight="0.12" />
+
+    <!-- Link to Financial Tips Screen -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="@string/btn_finTip"
+        android:textAllCaps="false"
+        android:id="@+id/btnFinTip"
+        android:layout_weight="0.12" />
+
+    <!-- Back Button -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_back"
+        android:id="@+id/btnBack" />
+</LinearLayout>
